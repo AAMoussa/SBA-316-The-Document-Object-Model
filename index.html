@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Motivation App - SBA316 DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- "Daily Motivation App"
+    A single-page app that shows a new motivational quote and background image every time a button is clicked. Users can also submit their own quote using a form, which is validated both via HTML and JavaScript. -->
+
+    <div class="container">
+        <!-- A Heading -->
+        <h1>Daily Motivation</h1>  
+
+        <!-- A quote display area -->
+         <div id="quote-box">
+            <p id="quote-text">Click the button to get inspired!</p>
+         </div>
+
+        <!-- A background image container -->
+
+        <!-- A button: "Show New Quote" -->
+         <button id="new-quote-btn">Show New Quote</button>
+         
+        <!-- A form with input to submit a custom quote -->
+         <form id="qoute-form">
+            <h2>Submit Your Own Quote</h2>
+            <input type="text" id="user-quote" placeholder="Enter your quote here" required minlength="5">
+            <button type="submit">Add Quote</button>
+            <!-- A validation message -->
+            <p id="form-message" class="error"></p>
+         </form>
+
+         <div id="custom-quotes">
+            <h3>Your Submitted Quotes:</h3>
+            <ul id="quote-list"></ul>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
