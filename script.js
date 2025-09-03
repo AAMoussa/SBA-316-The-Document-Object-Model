@@ -100,31 +100,3 @@ if (window.confirm("Welcome! Would you like to start with a random quote?")) {
     showRandomQuote();
 }
 
-/*
-===========================================================================
-✅ Requirements check list:
-===========================
-
-* getElementById + querySelector ✅
-
-* Parent/child/sibling navigation ✅ (quoteList.firstChild)
-
-* Iterate over a collection ✅ (querySelectorAll("button").forEach)
-
-* createElement + appendChild ✅ (adding quotes)
-
-* DocumentFragment ✅ (preloading default quotes)
-
-* Modify innerText/textContent dynamically ✅ (quotes + error message)
-
-* Modify style/classList dynamically ✅ (quote box background + button hover)
-
-* Modify attributes ✅ (change body background)
-
-* Two event listeners ✅ (click + mouseenter/mouseleave/dblclick)
-
-* BOM properties ✅ (window.innerWidth, confirm dialog)
-
-* Form validation (HTML + JS) ✅ 
-==============================================================================
-*/
