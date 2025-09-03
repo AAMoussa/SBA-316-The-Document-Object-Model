@@ -19,10 +19,12 @@ The requirements that were met to accomplish that were as follows:
 * Modify attributes ✅ (change body background)
 
 * Two event listeners ✅ (click + mouseenter/mouseleave/dblclick)
-
-  ===============================================================================
-  ===============================================================================
-
+  
 * BOM properties ✅ (window.innerWidth, confirm dialog)
 
 * Form validation (HTML + JS) ✅
+
+  ===============================================================================
+  ===============================================================================
+
+
